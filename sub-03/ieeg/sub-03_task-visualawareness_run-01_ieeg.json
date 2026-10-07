@@ -1,0 +1,26 @@
+{
+  "TaskName": "visualawareness",
+  "TaskDescription": "Visual awareness task with saccadic report: a near-threshold (staircase), salient or absent grating is shown; after a 600 ms delay the fixation colour cues a saccade, and subjects report aware/unaware (Fang et al. 2024).",
+  "Manufacturer": "NEURACLE Technology Co., Ltd., Beijing, China",
+  "SamplingFrequency": 1000.0,
+  "PowerLineFrequency": 50,
+  "SoftwareFilters": "n/a",
+  "HardwareFilters": {
+    "BandpassFilter": {
+      "LowCutoff": 1,
+      "HighCutoff": 250
+    },
+    "NotchFilter": {
+      "Frequency": 50
+    }
+  },
+  "iEEGReference": "a site in white matter (article)",
+  "ElectrodeManufacturer": "SINOVATION MEDICAL TECHNOLOGY CO., LTD., Beijing, China",
+  "iEEGElectrodeInfo": "Depth electrodes with 8-20 sites; 0.8 mm diameter, 2 mm length, 1.5 mm spacing (article)",
+  "RecordingType": "continuous",
+  "RecordingDuration": 738.0,
+  "SEEGChannelCount": 132,
+  "MiscChannelCount": 0,
+  "TriggerChannelCount": 0,
+  "InstitutionName": "Department of Neurosurgery, PLA General Hospital, Beijing"
+}

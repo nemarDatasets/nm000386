@@ -1,0 +1,7 @@
+participant_id	source_id	sex	age	diagnosis	implantation	grating_side	max_response_duration_ms	n_runs
+sub-01	P1	M	n/a	drug-resistant epilepsy	bilateral	right	2000	5
+sub-02	P2	M	n/a	drug-resistant epilepsy	unilateral	n/a	2000	5
+sub-03	P3	M	n/a	drug-resistant epilepsy	unilateral	n/a	2000	12
+sub-04	P4	M	n/a	drug-resistant epilepsy	unilateral	n/a	2000	7
+sub-05	P5	M	n/a	drug-resistant epilepsy	bilateral	right	2000	6
+sub-06	P6	M	n/a	drug-resistant epilepsy	bilateral	right	5000	6

@@ -1,0 +1,53 @@
+{
+  "Name": "The involvement of the human prefrontal cortex in the emergence of visual awareness (Fang et al., 2024): sEEG, 6 patients",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "raw",
+  "License": "CC0-1.0",
+  "Authors": [
+    "Zepeng Fang",
+    "Yuanyuan Dang",
+    "Zhipei Ling",
+    "Yongzheng Han",
+    "Hulin Zhao",
+    "Xin Xu",
+    "Mingsha Zhang"
+  ],
+  "EthicsApprovals": [
+    "All subjects provided informed consent to participate in this study. The Ethics Committee of Chinese PLA General Hospital approved the experimental procedures (approval numbers S2022-457-01). [Fang et al. 2024, eLife 13:RP89076, doi:10.7554/eLife.89076; Additional information, Ethics (Human subjects), identical in Methods, Data acquisition]"
+  ],
+  "Funding": [
+    "Ministry of Science and Technology of the People's Republic of China STI2030-Major Projects+2021ZD0204300 to Mingsha Zhang",
+    "National Natural Science Foundation of China 32061143004 to Mingsha Zhang",
+    "National Natural Science Foundation of China 32030045 to Mingsha Zhang",
+    "State Key Laboratory of Cognitive Neuroscience and Learning Open Research Fund CNLZD2202 to Yongzheng Han"
+  ],
+  "HowToAcknowledge": "Cite Fang Z, Dang Y, Ling Z, Han Y, Zhao H, Xu X, Zhang M (2024) The involvement of the human prefrontal cortex in the emergence of visual awareness. eLife 13:RP89076, doi:10.7554/eLife.89076; and Dryad doi:10.5061/dryad.p8cz8w9xp.",
+  "ReferencesAndLinks": [
+    "https://doi.org/10.7554/eLife.89076",
+    "https://doi.org/10.5061/dryad.p8cz8w9xp"
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.5061/dryad.p8cz8w9xp",
+      "URL": "https://datadryad.org/dataset/doi:10.5061/dryad.p8cz8w9xp",
+      "Version": "Dryad version 6 (published 2024-01-18)"
+    }
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "NEMAR iEEG batch-2 conversion (b2dryad_*036.py)",
+      "Description": "BDF -> BrainVision INT_32 with the exact BDF digital values and gains; events from evt.bdf, enriched per trial from the release behaviour MAT files; dates day -> 01; code in code/."
+    }
+  ],
+  "Keywords": [
+    "sEEG",
+    "stereo-EEG",
+    "intracranial EEG",
+    "visual awareness",
+    "consciousness",
+    "prefrontal cortex",
+    "saccade",
+    "epilepsy"
+  ],
+  "Acknowledgements": "We thank the participants for volunteering to take part in the study. (Fang et al. 2024, Acknowledgements)"
+}

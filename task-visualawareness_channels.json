@@ -1,0 +1,8 @@
+{
+  "notes": {
+    "Description": "Conversion notes per channel"
+  },
+  "source_label": {
+    "Description": "Channel label in the BDF header, verbatim. Where a label occurs twice in one file (sub-04: LDELT1 at channels 1 and 251, different signals) the later occurrence is renamed <label>_ch<index>."
+  }
+}

@@ -1,0 +1,2 @@
+1.0.0 2026-10-07
+  - Conversion of Dryad doi:10.5061/dryad.p8cz8w9xp to iEEG-BIDS for NEMAR (lossless BDF -> BrainVision, events, per-trial behaviour, defaced T1w, sourcedata with dates reduced to year-month).

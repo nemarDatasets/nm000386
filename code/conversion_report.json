@@ -1,0 +1,414 @@
+{
+ "runs": [
+  {
+   "sub": "sub-01",
+   "run": 1,
+   "source_session": "Session1",
+   "nchan": 192,
+   "n_times": 760000,
+   "sfreq": 1000.0,
+   "n_events": 1080,
+   "sha256_source_data_bdf": "fcb045444b7fca13f931e51e620d12e67a38562a61ca8b65e6e9bfb13a19052c"
+  },
+  {
+   "sub": "sub-01",
+   "run": 2,
+   "source_session": "Session2",
+   "nchan": 192,
+   "n_times": 732000,
+   "sfreq": 1000.0,
+   "n_events": 1080,
+   "sha256_source_data_bdf": "289cfa5be4e4d534141101f2001035473571c9666e83cc69b2489d3b72b07384"
+  },
+  {
+   "sub": "sub-01",
+   "run": 3,
+   "source_session": "Session3",
+   "nchan": 192,
+   "n_times": 762000,
+   "sfreq": 1000.0,
+   "n_events": 1076,
+   "sha256_source_data_bdf": "90df6888d31f91734cc8073cc2027aa134f87b07b7f4ea1803de0daaff4b2187"
+  },
+  {
+   "sub": "sub-01",
+   "run": 4,
+   "source_session": "Session4",
+   "nchan": 192,
+   "n_times": 728000,
+   "sfreq": 1000.0,
+   "n_events": 1076,
+   "sha256_source_data_bdf": "f30a080d9dea94ef95af2d07dc8b50c88bc7d376229fd414850516d0b5869e24"
+  },
+  {
+   "sub": "sub-01",
+   "run": 5,
+   "source_session": "Session5",
+   "nchan": 192,
+   "n_times": 692000,
+   "sfreq": 1000.0,
+   "n_events": 1081,
+   "sha256_source_data_bdf": "152b1c5c683a45252c09da051236781f006d48ba02ef591be9920e8c8e6715d5"
+  },
+  {
+   "sub": "sub-02",
+   "run": 1,
+   "source_session": "Session1",
+   "nchan": 108,
+   "n_times": 728000,
+   "sfreq": 1000.0,
+   "n_events": 1054,
+   "sha256_source_data_bdf": "e6e78b8ca0ec104d1ea715d9141f0bfa08fda824a908a80eaee01a9fa16d2efe"
+  },
+  {
+   "sub": "sub-02",
+   "run": 2,
+   "source_session": "Session2",
+   "nchan": 108,
+   "n_times": 697000,
+   "sfreq": 1000.0,
+   "n_events": 1069,
+   "sha256_source_data_bdf": "ea96b675224c456966e61ccbaf629a41972ad376d0c85180703247b7aff6ffdd"
+  },
+  {
+   "sub": "sub-02",
+   "run": 3,
+   "source_session": "Session3",
+   "nchan": 108,
+   "n_times": 728000,
+   "sfreq": 1000.0,
+   "n_events": 1074,
+   "sha256_source_data_bdf": "6ff723564e1d0dc8bc13b53d77a55b9ece50650c98657e3b637396d9937a639e"
+  },
+  {
+   "sub": "sub-02",
+   "run": 4,
+   "source_session": "Session4",
+   "nchan": 108,
+   "n_times": 699000,
+   "sfreq": 1000.0,
+   "n_events": 1077,
+   "sha256_source_data_bdf": "32b6a0fac208e8f198b8b4badfa70d4846976b252a69029a7bfc9a3f2629c3e2"
+  },
+  {
+   "sub": "sub-02",
+   "run": 5,
+   "source_session": "Session5",
+   "nchan": 108,
+   "n_times": 689000,
+   "sfreq": 1000.0,
+   "n_events": 1080,
+   "sha256_source_data_bdf": "de85b130aeb2fa5c7f958aa1b1622da64f9c6be31775302694c3673172568322"
+  },
+  {
+   "sub": "sub-03",
+   "run": 1,
+   "source_session": "Session1",
+   "nchan": 132,
+   "n_times": 738000,
+   "sfreq": 1000.0,
+   "n_events": 1074,
+   "sha256_source_data_bdf": "9bce655a54c02847ebc85d49b47fc07f4fe9f6627cbb84379f5e5c6f649abd3d"
+  },
+  {
+   "sub": "sub-03",
+   "run": 2,
+   "source_session": "Session2",
+   "nchan": 132,
+   "n_times": 709000,
+   "sfreq": 1000.0,
+   "n_events": 1077,
+   "sha256_source_data_bdf": "010b8488c2a8e14ebc084011cb47102d4aa1c78b2eec2104a2aacd2dfb928dff"
+  },
+  {
+   "sub": "sub-03",
+   "run": 3,
+   "source_session": "Session3",
+   "nchan": 132,
+   "n_times": 677000,
+   "sfreq": 1000.0,
+   "n_events": 1079,
+   "sha256_source_data_bdf": "f9aa78517929ddd302fe9a299ce11430cb026cf6e628f076fbe665be277d54cc"
+  },
+  {
+   "sub": "sub-03",
+   "run": 4,
+   "source_session": "Session4",
+   "nchan": 132,
+   "n_times": 684000,
+   "sfreq": 1000.0,
+   "n_events": 1075,
+   "sha256_source_data_bdf": "ac14836e25dfe3960abb2a2c9ddba94fbb3179365f8b1302c6ea4d42cc62ea08"
+  },
+  {
+   "sub": "sub-03",
+   "run": 5,
+   "source_session": "Session5",
+   "nchan": 132,
+   "n_times": 674000,
+   "sfreq": 1000.0,
+   "n_events": 1072,
+   "sha256_source_data_bdf": "dcc891aa5bbeddd940e04e5a6f619acaf4029cca931d3a3764069351942fb067"
+  },
+  {
+   "sub": "sub-03",
+   "run": 6,
+   "source_session": "Session6",
+   "nchan": 132,
+   "n_times": 663000,
+   "sfreq": 1000.0,
+   "n_events": 1081,
+   "sha256_source_data_bdf": "d58c9c2756ce9503bc1cc3c54c54253eb0fdbb375075c884ff38870e874b7845"
+  },
+  {
+   "sub": "sub-03",
+   "run": 7,
+   "source_session": "Session7",
+   "nchan": 132,
+   "n_times": 693000,
+   "sfreq": 1000.0,
+   "n_events": 1081,
+   "sha256_source_data_bdf": "1db5f3de677fc5da005dfe2b5055c4fc8e6ceb0e322237bbac1c3d0f8419816c"
+  },
+  {
+   "sub": "sub-03",
+   "run": 8,
+   "source_session": "Session8",
+   "nchan": 132,
+   "n_times": 644000,
+   "sfreq": 1000.0,
+   "n_events": 1076,
+   "sha256_source_data_bdf": "116a36c46264cefa14dcccf0c2b15c1f751733440354fdedc80688c1e66735af"
+  },
+  {
+   "sub": "sub-03",
+   "run": 9,
+   "source_session": "Session9",
+   "nchan": 132,
+   "n_times": 646000,
+   "sfreq": 1000.0,
+   "n_events": 1080,
+   "sha256_source_data_bdf": "bec06d1b98463602242fa0ccfce6cdf5998ac7c7e62028fb7ec7e717cdf8582a"
+  },
+  {
+   "sub": "sub-03",
+   "run": 10,
+   "source_session": "Session10",
+   "nchan": 132,
+   "n_times": 644000,
+   "sfreq": 1000.0,
+   "n_events": 1080,
+   "sha256_source_data_bdf": "dd0012c5cbf75a044b82c7bf9ef75d1ab13ac008dfa7c29f17e1b7157f19ec69"
+  },
+  {
+   "sub": "sub-03",
+   "run": 11,
+   "source_session": "Session11",
+   "nchan": 132,
+   "n_times": 1294000,
+   "sfreq": 1000.0,
+   "n_events": 701,
+   "sha256_source_data_bdf": "7d07ef57ec823acc3bba13a191c943e0bf46453ead563842d06091c363655c27"
+  },
+  {
+   "sub": "sub-03",
+   "run": 12,
+   "source_session": "Session12",
+   "nchan": 132,
+   "n_times": 973000,
+   "sfreq": 1000.0,
+   "n_events": 1077,
+   "sha256_source_data_bdf": "d2d1ca98c8424cc7b553ba30c0adc8e94e9c6e59bf9be46e283c98d83e07ad45"
+  },
+  {
+   "sub": "sub-04",
+   "run": 1,
+   "source_session": "Session1",
+   "nchan": 254,
+   "n_times": 754000,
+   "sfreq": 1000.0,
+   "n_events": 1080,
+   "sha256_source_data_bdf": "bfa3847562b2ef0b06257ec9bd9d346fada59f23fe400646432da19dd0f8416f"
+  },
+  {
+   "sub": "sub-04",
+   "run": 2,
+   "source_session": "Session2",
+   "nchan": 254,
+   "n_times": 686000,
+   "sfreq": 1000.0,
+   "n_events": 1077,
+   "sha256_source_data_bdf": "efb92c2184de8833ce3d4106ca761edf1d0a0e39a1892437f0ea0c994dafd8b0"
+  },
+  {
+   "sub": "sub-04",
+   "run": 3,
+   "source_session": "Session3",
+   "nchan": 254,
+   "n_times": 632000,
+   "sfreq": 1000.0,
+   "n_events": 1048,
+   "sha256_source_data_bdf": "3e0d569d58e0b8913a3cf2226db07978f3db3235893d526025aefd40d9ed427d"
+  },
+  {
+   "sub": "sub-04",
+   "run": 4,
+   "source_session": "Session4",
+   "nchan": 254,
+   "n_times": 703000,
+   "sfreq": 1000.0,
+   "n_events": 1077,
+   "sha256_source_data_bdf": "8846f806ffb90da928eae3ce89bb564fce9362a415bda10850120fa9efb0c902"
+  },
+  {
+   "sub": "sub-04",
+   "run": 5,
+   "source_session": "Session5",
+   "nchan": 254,
+   "n_times": 652000,
+   "sfreq": 1000.0,
+   "n_events": 1077,
+   "sha256_source_data_bdf": "9a4f7bae00e542c78c8f9d5cad67dccde11e17bf4082647ad3b634ee9388398f"
+  },
+  {
+   "sub": "sub-04",
+   "run": 6,
+   "source_session": "Session6",
+   "nchan": 254,
+   "n_times": 751000,
+   "sfreq": 1000.0,
+   "n_events": 1079,
+   "sha256_source_data_bdf": "f7c62fefaabeb65e70200919e5e54453420bb8772503dac6ab69183ac2778250"
+  },
+  {
+   "sub": "sub-04",
+   "run": 7,
+   "source_session": "Session7",
+   "nchan": 254,
+   "n_times": 675000,
+   "sfreq": 1000.0,
+   "n_events": 1072,
+   "sha256_source_data_bdf": "031a9bd88fe2933eb8bdf91900319193965f8e87fd1aee160bb9a1a153723025"
+  },
+  {
+   "sub": "sub-05",
+   "run": 1,
+   "source_session": "Session1",
+   "nchan": 174,
+   "n_times": 818000,
+   "sfreq": 1000.0,
+   "n_events": 1075,
+   "sha256_source_data_bdf": "233dcd5b39845f270cd4b851ceb525fb897c984e7569783f080d85a5a139f8b9"
+  },
+  {
+   "sub": "sub-05",
+   "run": 2,
+   "source_session": "Session2",
+   "nchan": 174,
+   "n_times": 817000,
+   "sfreq": 1000.0,
+   "n_events": 1072,
+   "sha256_source_data_bdf": "5a7ccd49bac08ebaf9c6abcc356f69f518dc2e84c8963e813a281afe158721c8"
+  },
+  {
+   "sub": "sub-05",
+   "run": 3,
+   "source_session": "Session3",
+   "nchan": 174,
+   "n_times": 1000000,
+   "sfreq": 1000.0,
+   "n_events": 1075,
+   "sha256_source_data_bdf": "a786c8c245710b190cd8af5852c6e06f220f5acaab8db3cfda55bc8f0633c5ce"
+  },
+  {
+   "sub": "sub-05",
+   "run": 4,
+   "source_session": "Session4",
+   "nchan": 174,
+   "n_times": 760000,
+   "sfreq": 1000.0,
+   "n_events": 1081,
+   "sha256_source_data_bdf": "b60d3197eb78f65f23eda5cdacc48d7004d89597621524244f8bcb43c1eeb418"
+  },
+  {
+   "sub": "sub-05",
+   "run": 5,
+   "source_session": "Session5",
+   "nchan": 174,
+   "n_times": 1141000,
+   "sfreq": 1000.0,
+   "n_events": 1078,
+   "sha256_source_data_bdf": "b2d06a4e55a4e5f4a98f3e957c394ff41c14300d26aeeff6e6ce2ff7bd0df044"
+  },
+  {
+   "sub": "sub-05",
+   "run": 6,
+   "source_session": "Session6-7",
+   "nchan": 174,
+   "n_times": 1805000,
+   "sfreq": 1000.0,
+   "n_events": 2163,
+   "sha256_source_data_bdf": "78af35a07c07861a4db8385f67460c1f75885db4e016cd27a7a965cbc47ee6d1"
+  },
+  {
+   "sub": "sub-06",
+   "run": 1,
+   "source_session": "Session1",
+   "nchan": 216,
+   "n_times": 930000,
+   "sfreq": 1000.0,
+   "n_events": 1074,
+   "sha256_source_data_bdf": "18477eff19f7d648cfa2aba96af336f7f6c05517051048e150cc1ae796758c33"
+  },
+  {
+   "sub": "sub-06",
+   "run": 2,
+   "source_session": "Session2",
+   "nchan": 216,
+   "n_times": 872000,
+   "sfreq": 1000.0,
+   "n_events": 1077,
+   "sha256_source_data_bdf": "4f8a61317c534826e4ca7ac122c3bbd2ddd0f07066bd5049822c5d99c87d0939"
+  },
+  {
+   "sub": "sub-06",
+   "run": 3,
+   "source_session": "Session3",
+   "nchan": 216,
+   "n_times": 869000,
+   "sfreq": 1000.0,
+   "n_events": 1080,
+   "sha256_source_data_bdf": "6f758d83ad941ac598042b48cd6e78d0b299cab6a82bfa68b7a584ee42a546c2"
+  },
+  {
+   "sub": "sub-06",
+   "run": 4,
+   "source_session": "Session4",
+   "nchan": 216,
+   "n_times": 812000,
+   "sfreq": 1000.0,
+   "n_events": 1077,
+   "sha256_source_data_bdf": "5d730835498a5e205f0bcf99a3b8f84fe7640d4b408f048f13f35f352eba6abd"
+  },
+  {
+   "sub": "sub-06",
+   "run": 5,
+   "source_session": "Session5",
+   "nchan": 216,
+   "n_times": 784000,
+   "sfreq": 1000.0,
+   "n_events": 1080,
+   "sha256_source_data_bdf": "1d8708135105f4404be2c5440b49a59234059144807a71b09ca5cbab6772285b"
+  },
+  {
+   "sub": "sub-06",
+   "run": 6,
+   "source_session": "Session6",
+   "nchan": 216,
+   "n_times": 829000,
+   "sfreq": 1000.0,
+   "n_events": 1077,
+   "sha256_source_data_bdf": "d4960517ae2963d651bd01eade858d6b2211b0534fe5b0ab615e8c100fac7f4d"
+  }
+ ]
+}

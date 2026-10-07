@@ -1,0 +1,76 @@
+{
+  "onset": {
+    "Description": "Trigger onset from evt.bdf, used as data latency (Neuracle convention)",
+    "Units": "s"
+  },
+  "duration": {
+    "Description": "Annotation duration in evt.bdf",
+    "Units": "s"
+  },
+  "trial_type": {
+    "Description": "trigger_<code>"
+  },
+  "value": {
+    "Description": "Trigger code from evt.bdf 'Trigger-In:<code>' (verbatim)."
+  },
+  "sample": {
+    "Description": "Sample index (0-based) = round(onset x 1000)"
+  },
+  "source_annotation": {
+    "Description": "Annotation text in evt.bdf, verbatim"
+  },
+  "trial": {
+    "Description": "Trial number within the recording: ordinal of the preceding trial_start (code 101). In matched runs it is also the index into the session's MAT Trial struct (for P5 Session6-7: Session6 trials 1-180, then Session7)."
+  },
+  "event_name": {
+    "Description": "Meaning of the code, inferred by us (not documented by the authors): for 11/21/20/31 the trigger intervals match the MAT EventTime intervals FpOn/CueOn/CueOff/TargetOn relative to PreFpOn (median abs. difference 1.2-1.8 ms, 99th percentile < 5 ms over 7,100+ trials); for 201/203/204 the code co-occurs exclusively with MAT trial_complete=1 / trial_complete=0 without fixation break / trial_FPbreak=1. Codes 255 and 192 (17 occurrences) are not interpreted (n/a).",
+    "Levels": {
+      "trial_start": "101: trial start (MAT EventTime.PreFpOn)",
+      "fixation_point_on": "11: fixation point on",
+      "grating_on": "21: grating (cue) onset; on absent-stimulus trials the trigger is still sent",
+      "grating_off": "20: grating offset (50 ms after onset)",
+      "targets_on_fp_color_change": "31: fixation point turns red/green and the two saccade targets appear (after the 600 ms delay)",
+      "trial_end_completed": "201: trial completed",
+      "trial_end_not_completed": "203: trial not completed (no fixation break)",
+      "trial_end_fixation_break": "204: fixation break"
+    }
+  },
+  "stim_presence": {
+    "Description": "MAT Trial.StiPresence",
+    "Levels": {
+      "staircase": "1: grating contrast near threshold (1 up/1 down staircase)",
+      "salient": "2: salient grating with fixed high contrast",
+      "absent": "3: no grating (zero contrast)"
+    }
+  },
+  "contrast": {
+    "Description": "MAT Trial.Sti.Contrast: grating contrast value as stored by the task software (Weber contrast in task units; see article)"
+  },
+  "fp_color": {
+    "Description": "MAT Trial.TG.RespFP1G2R: fixation-point colour cue",
+    "Levels": {
+      "green": "1: aware -> right target, unaware -> left target",
+      "red": "2: aware -> left target, unaware -> right target"
+    }
+  },
+  "response": {
+    "Description": "MAT Trial.Resp1L2R: saccade direction",
+    "Levels": {
+      "left": "1",
+      "right": "2"
+    }
+  },
+  "awareness": {
+    "Description": "MAT Trial.AwareType1U2A: subject's report derived from saccade direction and colour",
+    "Levels": {
+      "unaware": "1",
+      "aware": "2"
+    }
+  },
+  "trial_complete": {
+    "Description": "MAT Trial.trial_complete: 1 = trial completed correctly, 0 = aborted"
+  },
+  "fixation_break": {
+    "Description": "MAT Trial.trial_FPbreak: 1 = fixation break, 0 = none"
+  }
+}

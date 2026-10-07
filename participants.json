@@ -1,0 +1,35 @@
+{
+  "source_id": {
+    "Description": "Patient folder name in the release (P1-P6)"
+  },
+  "sex": {
+    "Description": "Article: 'Six adult patients with drug-resistant epilepsy (6 males, 32.33±4.75 years old, mean ± SEM)'",
+    "Levels": {
+      "M": "male"
+    }
+  },
+  "age": {
+    "Description": "Per-patient age not given (article reports 32.33±4.75 years, mean ± SEM)",
+    "Units": "year"
+  },
+  "n_runs": {
+    "Description": "Number of recordings (release 'SessionN' folders); stored as runs. Article: 'each patient completed five to seven sessions' (P3 has 12 session folders in the release; P5 'Session6-7' is one recording of two sessions)."
+  },
+  "diagnosis": {
+    "Description": "Article, Methods 'Data acquisition': 'Six adult patients with drug-resistant epilepsy'"
+  },
+  "implantation": {
+    "Description": "Article, 'Experimental task': 'For patients 1, 5, and 6, the electrodes were implanted in both hemispheres'; the other patients had one hemisphere implanted (side not stated in the article).",
+    "Levels": {
+      "bilateral": "electrodes in both hemispheres",
+      "unilateral": "electrodes in one hemisphere"
+    }
+  },
+  "grating_side": {
+    "Description": "Screen side of the grating. Article: opposite to the implanted hemisphere; 'For patients 1, 5, and 6 ... the grating is set on the right side.' For unilateral patients the side is not stated in the article (it is recorded per trial in the behaviour MAT files, Trial.Sti.LocX)."
+  },
+  "max_response_duration_ms": {
+    "Description": "Maximum saccadic response window used for trial exclusion in the article ('2000ms for most patients, 5000ms for patient 6')",
+    "Units": "ms"
+  }
+}
