@@ -1,0 +1,122 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Zepeng Fang": {
+      "orcid": "0000-0002-0396-6463",
+      "affiliations": [
+        {
+          "name": "Beijing Normal University",
+          "identifier": "https://ror.org/022k4wk35",
+          "scheme": "ROR"
+        }
+      ]
+    },
+    "Yuanyuan Dang": {},
+    "Zhipei Ling": {},
+    "Yongzheng Han": {},
+    "Hulin Zhao": {},
+    "Xin Xu": {},
+    "Mingsha Zhang": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.5061/dryad.p8cz8w9xp",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.7554/eLife.89076",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000386",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000386",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Ministry of Science and Technology of the People's Republic of China",
+      "award_number": "2021ZD0204300",
+      "award_title": "STI2030-Major Projects"
+    },
+    {
+      "funder_name": "National Natural Science Foundation of China",
+      "award_number": "32061143004"
+    },
+    {
+      "funder_name": "National Natural Science Foundation of China",
+      "award_number": "32030045"
+    },
+    {
+      "funder_name": "State Key Laboratory of Cognitive Neuroscience and Learning Open Research Fund",
+      "award_number": "CNLZD2202"
+    }
+  ],
+  "title": "The involvement of the human prefrontal cortex in the emergence of visual awareness (Fang et al., 2024): sEEG, 6 patients",
+  "license": "CC0-1.0",
+  "dataset_type": "raw",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "anat",
+    "ieeg"
+  ],
+  "resource_type_specific": "Structural MRI Dataset",
+  "sizes": [
+    "37.91 GB (244 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".eeg",
+    ".gz",
+    ".json",
+    ".mat",
+    ".md",
+    ".nii",
+    ".py",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "Stereo-EEG recordings from six adult male patients with drug-resistant epilepsy performing a visual awareness task with saccadic report. Near-threshold Gabor gratings were presented, and participants reported seeing or not seeing them via saccade direction. The dataset aims to clarify the role of the prefrontal cortex in the emergence of visual awareness. It includes per-trial behaviour, defaced T1 MRI, and source data with post-implantation CT and eye-position/behaviour files from the patients and 10 healthy controls.",
+  "methods_description": "Depth electrodes (SINOVATION, 8-20 contacts) were recorded with a NEURACLE amplifier at 1 kHz (hardware filter 1-250 Hz, 50 Hz notch), referenced to a white-matter contact. In the task, a 2° Gabor grating was shown for 50 ms at 7° eccentricity with a staircase-controlled contrast. After a delay, a colour cue and two saccade targets indicated how to report awareness (180 trials per session). Eye position was tracked at 1 kHz, and the original BDF data were converted to BrainVision format.",
+  "keywords": [
+    {
+      "term": "stereo-EEG"
+    },
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "visual awareness"
+    },
+    {
+      "term": "Consciousness",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003243"
+    },
+    {
+      "term": "Prefrontal Cortex",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D017397"
+    },
+    {
+      "term": "Saccades",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D012438"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    }
+  ],
+  "source_hash": "3bd602e4d7ddb10f853d6b3e8b96c151a72608f515ff114e6b603b9dcd874c6e"
+}
