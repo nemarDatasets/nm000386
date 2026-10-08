@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "The involvement of the human prefrontal cortex in the emergence of visual awareness (Fang et al., 2024): sEEG, 6 patients",
+  "description": "Stereo-EEG recordings from six adult male patients with drug-resistant epilepsy performing a visual awareness task with saccadic report. Near-threshold Gabor gratings were presented while patients reported perception via saccade direction, enabling study of prefrontal cortex involvement in the emergence of visual awareness. The dataset includes per-trial behaviour, defaced T1 MRI, and source data with post-implantation CT and eye-position/behaviour files from patients and 10 healthy controls.",
+  "methods_description": "Depth electrodes (SINOVATION, 8-20 contacts) were recorded with a NEURACLE amplifier at 1 kHz (1-250 Hz hardware filter, 50 Hz notch) against a white-matter contact reference, with 108-254 channels per recording. Patients performed a visual awareness task with a 50 ms Gabor grating at threshold contrast (1 up/1 down staircase) followed by a color-cued saccade report, with eye position tracked by an infrared eye tracker at 1 kHz. Original BDF data were converted to BrainVision format with exact digital values preserved.",
+  "license": "CC0-1.0",
+  "dataset_type": "raw",
   "authors": {
     "Zepeng Fang": {
       "orcid": "0000-0002-0396-6463",
@@ -19,6 +24,37 @@
     "Xin Xu": {},
     "Mingsha Zhang": {}
   },
+  "keywords": [
+    {
+      "term": "stereo-EEG"
+    },
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "visual awareness"
+    },
+    {
+      "term": "Consciousness",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003243"
+    },
+    {
+      "term": "Prefrontal Cortex",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D017397"
+    },
+    {
+      "term": "Saccades",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D012438"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.5061/dryad.p8cz8w9xp",
@@ -56,19 +92,17 @@
       "award_number": "32030045"
     },
     {
-      "funder_name": "State Key Laboratory of Cognitive Neuroscience and Learning Open Research Fund",
-      "award_number": "CNLZD2202"
+      "funder_name": "State Key Laboratory of Cognitive Neuroscience and Learning",
+      "award_number": "CNLZD2202",
+      "award_title": "Open Research Fund"
     }
   ],
-  "title": "The involvement of the human prefrontal cortex in the emergence of visual awareness (Fang et al., 2024): sEEG, 6 patients",
-  "license": "CC0-1.0",
-  "dataset_type": "raw",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "Structural MRI Dataset",
   "modalities": [
     "anat",
     "ieeg"
   ],
-  "resource_type_specific": "Structural MRI Dataset",
   "sizes": [
     "37.91 GB (244 files)"
   ],
@@ -83,40 +117,8 @@
     ".py",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "Stereo-EEG recordings from six adult male patients with drug-resistant epilepsy performing a visual awareness task with saccadic report. Near-threshold Gabor gratings were presented, and participants reported seeing or not seeing them via saccade direction. The dataset aims to clarify the role of the prefrontal cortex in the emergence of visual awareness. It includes per-trial behaviour, defaced T1 MRI, and source data with post-implantation CT and eye-position/behaviour files from the patients and 10 healthy controls.",
-  "methods_description": "Depth electrodes (SINOVATION, 8-20 contacts) were recorded with a NEURACLE amplifier at 1 kHz (hardware filter 1-250 Hz, 50 Hz notch), referenced to a white-matter contact. In the task, a 2° Gabor grating was shown for 50 ms at 7° eccentricity with a staircase-controlled contrast. After a delay, a colour cue and two saccade targets indicated how to report awareness (180 trials per session). Eye position was tracked at 1 kHz, and the original BDF data were converted to BrainVision format.",
-  "keywords": [
-    {
-      "term": "stereo-EEG"
-    },
-    {
-      "term": "intracranial EEG"
-    },
-    {
-      "term": "visual awareness"
-    },
-    {
-      "term": "Consciousness",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D003243"
-    },
-    {
-      "term": "Prefrontal Cortex",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D017397"
-    },
-    {
-      "term": "Saccades",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D012438"
-    },
-    {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
-    }
-  ],
-  "source_hash": "3bd602e4d7ddb10f853d6b3e8b96c151a72608f515ff114e6b603b9dcd874c6e"
+  "source_hash": "6ab414768e0625c7eda8690948ef3f117f8c26860b460ec3cc00f3248a94575a"
 }
