@@ -49,5 +49,7 @@
     "saccade",
     "epilepsy"
   ],
-  "Acknowledgements": "We thank the participants for volunteering to take part in the study. (Fang et al. 2024, Acknowledgements)"
+  "Acknowledgements": "We thank the participants for volunteering to take part in the study. (Fang et al. 2024, Acknowledgements)",
+  "DatasetDOI": "10.82901/nemar.nm000386",
+  "Version": "1.0.0"
 }
