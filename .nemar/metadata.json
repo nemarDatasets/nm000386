@@ -1,9 +1,9 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "The involvement of the human prefrontal cortex in the emergence of visual awareness (Fang et al., 2024): sEEG, 6 patients",
-  "description": "Stereo-EEG recordings from six adult male patients with drug-resistant epilepsy performing a visual awareness task with saccadic report. Near-threshold Gabor gratings were presented while patients reported perception via saccade direction, enabling study of prefrontal cortex involvement in the emergence of visual awareness. The dataset includes per-trial behaviour, defaced T1 MRI, and source data with post-implantation CT and eye-position/behaviour files from patients and 10 healthy controls.",
-  "methods_description": "Depth electrodes (SINOVATION, 8-20 contacts) were recorded with a NEURACLE amplifier at 1 kHz (1-250 Hz hardware filter, 50 Hz notch) against a white-matter contact reference, with 108-254 channels per recording. Patients performed a visual awareness task with a 50 ms Gabor grating at threshold contrast (1 up/1 down staircase) followed by a color-cued saccade report, with eye position tracked by an infrared eye tracker at 1 kHz. Original BDF data were converted to BrainVision format with exact digital values preserved.",
+  "title": "Fang-2024-involvement-10.7554/elife.89076",
+  "description": "Stereo-EEG recordings from six adult male patients with drug-resistant epilepsy performing a visual awareness task with saccadic report. Near-threshold Gabor gratings were presented and awareness was reported by saccade direction. The dataset includes per-trial behaviour, defaced T1 MRI, and, in sourcedata, post-implantation CT plus eye-position and behaviour files from the patients and 10 healthy controls. It supports investigation of the role of the prefrontal cortex in the emergence of visual awareness.",
+  "methods_description": "Depth electrodes (8-20 contacts) were recorded with a NEURACLE amplifier at 1 kHz with a 1-250 Hz hardware filter and 50 Hz notch, referenced to a white-matter contact. Patients viewed a 50 ms Gabor grating at 7° eccentricity, with contrast set by a 1-up/1-down staircase around the perceptual threshold. After 600 ms, a colour cue indicated the saccade-target mapping for reporting seen versus not seen. Eye position was recorded with an infrared eye tracker at 1 kHz. Original BDF recordings were converted to BrainVision format.",
   "license": "CC0-1.0",
   "dataset_type": "raw",
   "authors": {
@@ -35,9 +35,7 @@
       "term": "visual awareness"
     },
     {
-      "term": "Consciousness",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D003243"
+      "term": "consciousness"
     },
     {
       "term": "Prefrontal Cortex",
@@ -120,5 +118,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "6ab414768e0625c7eda8690948ef3f117f8c26860b460ec3cc00f3248a94575a"
+  "source_hash": "a824ac0878472df8add5da9d3e9a5ad4350f22626b20252c4f9c8241feda806d"
 }
