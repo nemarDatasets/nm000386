@@ -1,5 +1,5 @@
 {
-  "Name": "The involvement of the human prefrontal cortex in the emergence of visual awareness (Fang et al., 2024): sEEG, 6 patients",
+  "Name": "Fang-2024-involvement-10.7554/elife.89076",
   "BIDSVersion": "1.10.0",
   "DatasetType": "raw",
   "License": "CC0-1.0",
@@ -51,5 +51,5 @@
   ],
   "Acknowledgements": "We thank the participants for volunteering to take part in the study. (Fang et al. 2024, Acknowledgements)",
   "DatasetDOI": "10.82901/nemar.nm000386",
-  "Version": "1.0.0"
+  "Version": "1.0.1"
 }
