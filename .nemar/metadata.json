@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Fang-2024-involvement-10.7554/elife.89076",
+  "title": "The involvement of the human prefrontal cortex in the emergence of visual awareness (Fang et al., 2024): sEEG, 6 patients",
   "description": "Stereo-EEG recordings from six adult male patients with drug-resistant epilepsy performing a visual awareness task with saccadic report. Near-threshold Gabor gratings were presented and awareness was reported by saccade direction. The dataset includes per-trial behaviour, defaced T1 MRI, and, in sourcedata, post-implantation CT plus eye-position and behaviour files from the patients and 10 healthy controls. It supports investigation of the role of the prefrontal cortex in the emergence of visual awareness.",
   "methods_description": "Depth electrodes (8-20 contacts) were recorded with a NEURACLE amplifier at 1 kHz with a 1-250 Hz hardware filter and 50 Hz notch, referenced to a white-matter contact. Patients viewed a 50 ms Gabor grating at 7° eccentricity, with contrast set by a 1-up/1-down staircase around the perceptual threshold. After 600 ms, a colour cue indicated the saccade-target mapping for reporting seen versus not seen. Eye position was recorded with an infrared eye tracker at 1 kHz. Original BDF recordings were converted to BrainVision format.",
   "license": "CC0-1.0",
@@ -118,5 +118,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "a824ac0878472df8add5da9d3e9a5ad4350f22626b20252c4f9c8241feda806d"
+  "source_hash": "5a217afec625290463d8fda7f7ef263f9990ba8c7be78d47b32c01775e8a6175"
 }
