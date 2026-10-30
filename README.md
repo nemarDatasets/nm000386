@@ -53,6 +53,11 @@ approved the experimental procedures (approval numbers S2022-457-01)."
   with the MAT event times (99th percentile < 25 ms; observed < 9 ms): 39 of 41 runs. Not matched (behaviour columns
   n/a; raw MAT files in sourcedata): sub-03 run-11 (117 trial starts in the recording vs 180 MAT trials) and sub-04
   run-06 (178 vs 180).
+- `stim_presence` (corrected 30 Oct 2026): the release README defines StiPresence 2 as the salient grating and 3 as no
+  grating, and the first conversion followed it. The recorded trials say the opposite: all 1332 code-2 trials have
+  contrast 0 and all 720 code-3 trials a high contrast (70; 50 for sub-04), and the paper's proportions (20% no grating,
+  10% salient) match 36 vs 18 code-2 vs code-3 trials per session. Code 2 is now labelled `absent` and code 3
+  `salient` (`code/fix-20261030_stim_presence_levels.py`); the `contrast` and `awareness` values are unchanged.
 - P5 'Session6-7' is a single file in the release (two sessions in one recording) and is kept as one run.
 - Channels named *DELT* (present for some patients) are typed MISC: the name suggests deltoid EMG but the release does
   not say. All other channels are SEEG. No electrode coordinates are released (only defaced MRI/CT).

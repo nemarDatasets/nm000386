@@ -36,11 +36,11 @@
     }
   },
   "stim_presence": {
-    "Description": "MAT Trial.StiPresence",
+    "Description": "MAT Trial.StiPresence, labelled from the recorded contrast. The release README says 2 = 'salient stimulus with fixed high contrast' and 3 = 'no stimulus', but in every run code-2 trials have contrast 0 and code-3 trials a high contrast (70, or 50 for sub-04), and the paper's proportions (20% no grating, 10% salient) match 36 vs 18 trials per session for codes 2 vs 3. Labels were swapped accordingly on 30 Oct 2026 (code/fix-20261030_stim_presence_levels.py).",
     "Levels": {
       "staircase": "1: grating contrast near threshold (1 up/1 down staircase)",
-      "salient": "2: salient grating with fixed high contrast",
-      "absent": "3: no grating (zero contrast)"
+      "absent": "2: no grating (contrast 0)",
+      "salient": "3: salient grating with fixed high contrast"
     }
   },
   "contrast": {
